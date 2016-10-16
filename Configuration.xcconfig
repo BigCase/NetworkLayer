@@ -1,0 +1,10 @@
+//
+//  Configuration.xcconfig
+//  NetworkLayer
+//
+//  Created by BigCase on 10/16/16.
+//
+//
+
+SDKROOT = macosx
+MACOSX_DEPLOYMENT_TARGET = 10.11
