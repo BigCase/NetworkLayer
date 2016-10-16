@@ -1,9 +1,9 @@
-import Alamofire
+//
+//  main.swift
+//  NetworkLayer
+//
+//  Created by BigCase on 10/16/16.
+//
+//
+
 import Foundation
-
-Alamofire.request("https://httpbin.org/get").responseJSON { response in
-    debugPrint(response)
-    exit(0)
-}
-
-RunLoop.current.run()
